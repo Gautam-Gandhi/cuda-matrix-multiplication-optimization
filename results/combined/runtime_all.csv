@@ -1,0 +1,405 @@
+gpu,category,kernel,kernel_name,M,N,K,gflops,time_s
+rtx3050,square,0,cuBLAS,128,128,128,4.7,0.000884
+rtx3050,square,0,cuBLAS,256,256,256,1321.3,2.5e-05
+rtx3050,square,0,cuBLAS,512,512,512,2995.2,9e-05
+rtx3050,square,0,cuBLAS,1024,1024,1024,3747.6,0.000573
+rtx3050,square,0,cuBLAS,2048,2048,2048,4233.3,0.004058
+rtx3050,square,0,cuBLAS,4096,4096,4096,4434.3,0.030994
+rtx3050,square,10,Warptiling,128,128,128,139.5,3e-05
+rtx3050,square,10,Warptiling,256,256,256,641.7,5.2e-05
+rtx3050,square,10,Warptiling,512,512,512,2372.2,0.000113
+rtx3050,square,10,Warptiling,1024,1024,1024,3131.1,0.000686
+rtx3050,square,10,Warptiling,2048,2048,2048,4484.0,0.003831
+rtx3050,square,10,Warptiling,4096,4096,4096,4781.2,0.028746
+rtx3050,square,13,cuBLAS TF32,128,128,128,4.3,0.000982
+rtx3050,square,13,cuBLAS TF32,256,256,256,1413.6,2.4e-05
+rtx3050,square,13,cuBLAS TF32,512,512,512,4366.2,6.1e-05
+rtx3050,square,13,cuBLAS TF32,1024,1024,1024,5386.7,0.000399
+rtx3050,square,13,cuBLAS TF32,2048,2048,2048,6099.6,0.002817
+rtx3050,square,13,cuBLAS TF32,4096,4096,4096,7687.9,0.017877
+rtx3050,square,14,cuBLAS BF16,128,128,128,3.4,0.001249
+rtx3050,square,14,cuBLAS BF16,256,256,256,1328.8,2.5e-05
+rtx3050,square,14,cuBLAS BF16,512,512,512,5358.6,5e-05
+rtx3050,square,14,cuBLAS BF16,1024,1024,1024,7807.1,0.000275
+rtx3050,square,14,cuBLAS BF16,2048,2048,2048,10341.8,0.001661
+rtx3050,square,14,cuBLAS BF16,4096,4096,4096,10458.4,0.013141
+rtx3050,square,15,cuBLAS FP16,128,128,128,4.6,0.000921
+rtx3050,square,15,cuBLAS FP16,256,256,256,143.4,0.000234
+rtx3050,square,15,cuBLAS FP16,512,512,512,6833.8,3.9e-05
+rtx3050,square,15,cuBLAS FP16,1024,1024,1024,7597.8,0.000283
+rtx3050,square,15,cuBLAS FP16,2048,2048,2048,10819.7,0.001588
+rtx3050,square,15,cuBLAS FP16,4096,4096,4096,13117.9,0.010477
+rtx3050,square,1,Naive,128,128,128,43.1,9.7e-05
+rtx3050,square,1,Naive,256,256,256,45.3,0.000741
+rtx3050,square,1,Naive,512,512,512,53.8,0.00499
+rtx3050,square,1,Naive,1024,1024,1024,59.6,0.036057
+rtx3050,square,1,Naive,2048,2048,2048,59.7,0.287951
+rtx3050,square,1,Naive,4096,4096,4096,59.6,2.307712
+rtx3050,square,2,GMEM Coalescing,128,128,128,186.6,2.2e-05
+rtx3050,square,2,GMEM Coalescing,256,256,256,359.8,9.3e-05
+rtx3050,square,2,GMEM Coalescing,512,512,512,370.7,0.000724
+rtx3050,square,2,GMEM Coalescing,1024,1024,1024,426.1,0.00504
+rtx3050,square,2,GMEM Coalescing,2048,2048,2048,457.0,0.03759
+rtx3050,square,2,GMEM Coalescing,4096,4096,4096,461.7,0.297659
+rtx3050,square,3,SMEM Caching,128,128,128,252.5,1.7e-05
+rtx3050,square,3,SMEM Caching,256,256,256,466.4,7.2e-05
+rtx3050,square,3,SMEM Caching,512,512,512,450.3,0.000596
+rtx3050,square,3,SMEM Caching,1024,1024,1024,470.6,0.004563
+rtx3050,square,3,SMEM Caching,2048,2048,2048,539.3,0.031854
+rtx3050,square,3,SMEM Caching,4096,4096,4096,538.7,0.255132
+rtx3050,square,4,1D Blocktiling,128,128,128,140.8,3e-05
+rtx3050,square,4,1D Blocktiling,256,256,256,1033.5,3.2e-05
+rtx3050,square,4,1D Blocktiling,512,512,512,1295.1,0.000207
+rtx3050,square,4,1D Blocktiling,1024,1024,1024,1377.4,0.001559
+rtx3050,square,4,1D Blocktiling,2048,2048,2048,1700.2,0.010105
+rtx3050,square,4,1D Blocktiling,4096,4096,4096,1765.7,0.077838
+rtx3050,square,5,2D Blocktiling,128,128,128,106.8,3.9e-05
+rtx3050,square,5,2D Blocktiling,256,256,256,510.5,6.6e-05
+rtx3050,square,5,2D Blocktiling,512,512,512,1879.8,0.000143
+rtx3050,square,5,2D Blocktiling,1024,1024,1024,2614.9,0.000821
+rtx3050,square,5,2D Blocktiling,2048,2048,2048,3255.3,0.005278
+rtx3050,square,5,2D Blocktiling,4096,4096,4096,3461.8,0.039702
+rtx3050,square,6,Vectorized,128,128,128,136.2,3.1e-05
+rtx3050,square,6,Vectorized,256,256,256,627.9,5.3e-05
+rtx3050,square,6,Vectorized,512,512,512,2280.1,0.000118
+rtx3050,square,6,Vectorized,1024,1024,1024,3277.5,0.000655
+rtx3050,square,6,Vectorized,2048,2048,2048,3990.3,0.004305
+rtx3050,square,6,Vectorized,4096,4096,4096,4062.5,0.033831
+rtx3050,square,7,Bank Conflicts (Linearize),128,128,128,124.3,3.4e-05
+rtx3050,square,7,Bank Conflicts (Linearize),256,256,256,545.2,6.2e-05
+rtx3050,square,7,Bank Conflicts (Linearize),512,512,512,1919.8,0.00014
+rtx3050,square,7,Bank Conflicts (Linearize),1024,1024,1024,2739.0,0.000784
+rtx3050,square,7,Bank Conflicts (Linearize),2048,2048,2048,3520.0,0.004881
+rtx3050,square,7,Bank Conflicts (Linearize),4096,4096,4096,3561.2,0.038593
+rtx3050,square,8,Bank Conflicts (Offset),128,128,128,127.6,3.3e-05
+rtx3050,square,8,Bank Conflicts (Offset),256,256,256,562.9,6e-05
+rtx3050,square,8,Bank Conflicts (Offset),512,512,512,2016.6,0.000133
+rtx3050,square,8,Bank Conflicts (Offset),1024,1024,1024,2865.3,0.000749
+rtx3050,square,8,Bank Conflicts (Offset),2048,2048,2048,3479.1,0.004938
+rtx3050,square,8,Bank Conflicts (Offset),4096,4096,4096,3627.8,0.037885
+rtx3050,square,9,Autotuned,128,128,128,141.6,3e-05
+rtx3050,square,9,Autotuned,256,256,256,740.6,4.5e-05
+rtx3050,square,9,Autotuned,512,512,512,2767.9,9.7e-05
+rtx3050,square,9,Autotuned,1024,1024,1024,3589.0,0.000598
+rtx3050,square,9,Autotuned,2048,2048,2048,4088.6,0.004202
+rtx3050,square,9,Autotuned,4096,4096,4096,4406.9,0.031187
+rtx3050,arbitrary,0,cuBLAS,256,256,256,35.5,0.000944
+rtx3050,arbitrary,0,cuBLAS,384,384,384,2205.7,5.1e-05
+rtx3050,arbitrary,0,cuBLAS,512,512,512,2927.0,9.2e-05
+rtx3050,arbitrary,0,cuBLAS,640,640,640,3194.4,0.000164
+rtx3050,arbitrary,0,cuBLAS,768,768,768,3559.2,0.000255
+rtx3050,arbitrary,0,cuBLAS,896,896,896,3499.2,0.000411
+rtx3050,arbitrary,0,cuBLAS,1024,1024,1024,3762.5,0.000571
+rtx3050,arbitrary,0,cuBLAS,1152,1152,1152,3535.3,0.000865
+rtx3050,arbitrary,0,cuBLAS,1280,1280,1280,4174.1,0.001005
+rtx3050,arbitrary,0,cuBLAS,1408,1408,1408,4173.1,0.001338
+rtx3050,arbitrary,0,cuBLAS,1536,1536,1536,4456.4,0.001626
+rtx3050,arbitrary,0,cuBLAS,1664,1664,1664,4270.4,0.002158
+rtx3050,arbitrary,0,cuBLAS,1792,1792,1792,4385.8,0.002624
+rtx3050,arbitrary,0,cuBLAS,1920,1920,1920,4335.6,0.003265
+rtx3050,arbitrary,0,cuBLAS,2048,2048,2048,4485.8,0.00383
+rtx3050,arbitrary,0,cuBLAS,2176,2176,2176,4280.6,0.004814
+rtx3050,arbitrary,0,cuBLAS,2304,2304,2304,4402.9,0.005556
+rtx3050,arbitrary,0,cuBLAS,2432,2432,2432,4428.2,0.006497
+rtx3050,arbitrary,0,cuBLAS,2560,2560,2560,4454.0,0.007534
+rtx3050,arbitrary,0,cuBLAS,2688,2688,2688,4412.5,0.008803
+rtx3050,arbitrary,0,cuBLAS,2816,2816,2816,4457.2,0.01002
+rtx3050,arbitrary,0,cuBLAS,2944,2944,2944,4265.8,0.011963
+rtx3050,arbitrary,0,cuBLAS,3072,3072,3072,4271.2,0.013575
+rtx3050,arbitrary,0,cuBLAS,3200,3200,3200,4264.4,0.015368
+rtx3050,arbitrary,0,cuBLAS,3328,3328,3328,4286.5,0.017198
+rtx3050,arbitrary,0,cuBLAS,3456,3456,3456,4272.9,0.019321
+rtx3050,arbitrary,0,cuBLAS,3584,3584,3584,4286.4,0.021481
+rtx3050,arbitrary,0,cuBLAS,3712,3712,3712,4454.4,0.022965
+rtx3050,arbitrary,0,cuBLAS,3840,3840,3840,4473.9,0.025313
+rtx3050,arbitrary,0,cuBLAS,3968,3968,3968,4279.9,0.029195
+rtx3050,arbitrary,0,cuBLAS,4096,4096,4096,4304.0,0.031933
+rtx3050,arbitrary,0,cuBLAS,3000,1500,3000,3884.6,0.00695
+rtx3050,arbitrary,0,cuBLAS,3000,3000,3000,4149.1,0.013015
+rtx3050,arbitrary,0,cuBLAS,1500,3000,1500,3952.7,0.003415
+rtx3050,arbitrary,0,cuBLAS,1000,1000,1000,3888.8,0.000514
+rtx3050,arbitrary,0,cuBLAS,1536,768,1536,4233.5,0.000856
+rtx3050,arbitrary,1,Naive,3000,1500,3000,152.7,0.176837
+rtx3050,arbitrary,1,Naive,3000,3000,3000,152.3,0.354485
+rtx3050,arbitrary,1,Naive,1500,3000,1500,163.8,0.082421
+rtx3050,arbitrary,1,Naive,1000,1000,1000,150.2,0.013312
+rtx3050,arbitrary,1,Naive,1536,768,1536,58.0,0.062452
+rtx3050,arbitrary,2,GMEM Coalescing,3000,1500,3000,439.4,0.061451
+rtx3050,arbitrary,2,GMEM Coalescing,3000,3000,3000,441.6,0.122286
+rtx3050,arbitrary,2,GMEM Coalescing,1500,3000,1500,440.1,0.030675
+rtx3050,arbitrary,2,GMEM Coalescing,1000,1000,1000,452.4,0.004421
+rtx3050,arbitrary,2,GMEM Coalescing,1536,768,1536,440.6,0.008225
+rtx3050,nonsquare,0,cuBLAS,4096,4096,4096,4253.9,0.032309
+rtx3050,nonsquare,0,cuBLAS,2048,8192,4096,4571.6,0.030064
+rtx3050,nonsquare,0,cuBLAS,8192,2048,4096,5461.1,0.025167
+rtx3050,nonsquare,0,cuBLAS,4096,4096,512,4893.3,0.003511
+rtx3050,nonsquare,0,cuBLAS,4096,4096,1024,5218.1,0.006585
+rtx3050,nonsquare,0,cuBLAS,4096,4096,2048,4495.1,0.015288
+rtx3050,nonsquare,10,Warptiling,4096,4096,4096,4773.0,0.028795
+rtx3050,nonsquare,10,Warptiling,2048,8192,4096,4766.4,0.028835
+rtx3050,nonsquare,10,Warptiling,8192,2048,4096,4760.2,0.028873
+rtx3050,nonsquare,10,Warptiling,4096,4096,512,4608.1,0.003728
+rtx3050,nonsquare,10,Warptiling,4096,4096,1024,4740.2,0.007249
+rtx3050,nonsquare,10,Warptiling,4096,4096,2048,4776.9,0.014386
+rtx3050,nonsquare,13,cuBLAS TF32,4096,4096,4096,7274.9,0.018892
+rtx3050,nonsquare,13,cuBLAS TF32,2048,8192,4096,7677.8,0.017901
+rtx3050,nonsquare,13,cuBLAS TF32,8192,2048,4096,7677.6,0.017901
+rtx3050,nonsquare,13,cuBLAS TF32,4096,4096,512,6800.9,0.002526
+rtx3050,nonsquare,13,cuBLAS TF32,4096,4096,1024,7278.5,0.004721
+rtx3050,nonsquare,13,cuBLAS TF32,4096,4096,2048,7540.2,0.009114
+rtx3050,nonsquare,14,cuBLAS BF16,4096,4096,4096,9859.4,0.01394
+rtx3050,nonsquare,14,cuBLAS BF16,2048,8192,4096,10122.8,0.013577
+rtx3050,nonsquare,14,cuBLAS BF16,8192,2048,4096,10401.4,0.013213
+rtx3050,nonsquare,14,cuBLAS BF16,4096,4096,512,9611.5,0.001787
+rtx3050,nonsquare,14,cuBLAS BF16,4096,4096,1024,11620.9,0.002957
+rtx3050,nonsquare,14,cuBLAS BF16,4096,4096,2048,12616.7,0.005447
+rtx3050,nonsquare,15,cuBLAS FP16,4096,4096,4096,11944.8,0.011506
+rtx3050,nonsquare,15,cuBLAS FP16,2048,8192,4096,12894.1,0.010659
+rtx3050,nonsquare,15,cuBLAS FP16,8192,2048,4096,10847.8,0.01267
+rtx3050,nonsquare,15,cuBLAS FP16,4096,4096,512,7790.2,0.002205
+rtx3050,nonsquare,15,cuBLAS FP16,4096,4096,1024,9366.9,0.003668
+rtx3050,nonsquare,15,cuBLAS FP16,4096,4096,2048,10507.3,0.00654
+rtx3050,nonsquare,1,Naive,4096,4096,4096,59.5,2.308165
+rtx3050,nonsquare,1,Naive,2048,8192,4096,59.6,2.307926
+rtx3050,nonsquare,1,Naive,8192,2048,4096,59.5,2.307962
+rtx3050,nonsquare,1,Naive,4096,4096,512,59.1,0.290603
+rtx3050,nonsquare,1,Naive,4096,4096,1024,59.4,0.578596
+rtx3050,nonsquare,1,Naive,4096,4096,2048,59.5,1.155456
+rtx3050,nonsquare,2,GMEM Coalescing,4096,4096,4096,461.1,0.298067
+rtx3050,nonsquare,2,GMEM Coalescing,2048,8192,4096,457.5,0.300402
+rtx3050,nonsquare,2,GMEM Coalescing,8192,2048,4096,455.3,0.30184
+rtx3050,nonsquare,2,GMEM Coalescing,4096,4096,512,466.4,0.036835
+rtx3050,nonsquare,2,GMEM Coalescing,4096,4096,1024,452.5,0.075933
+rtx3050,nonsquare,2,GMEM Coalescing,4096,4096,2048,456.3,0.150615
+rtx3050,nonsquare,3,SMEM Caching,4096,4096,4096,537.5,0.255698
+rtx3050,nonsquare,3,SMEM Caching,2048,8192,4096,530.3,0.259155
+rtx3050,nonsquare,3,SMEM Caching,8192,2048,4096,536.1,0.256388
+rtx3050,nonsquare,3,SMEM Caching,4096,4096,512,572.1,0.030029
+rtx3050,nonsquare,3,SMEM Caching,4096,4096,1024,529.7,0.064867
+rtx3050,nonsquare,3,SMEM Caching,4096,4096,2048,536.8,0.128017
+rtx3050,nonsquare,4,1D Blocktiling,4096,4096,4096,1762.3,0.07799
+rtx3050,nonsquare,4,1D Blocktiling,2048,8192,4096,1756.2,0.078261
+rtx3050,nonsquare,4,1D Blocktiling,8192,2048,4096,1745.2,0.078751
+rtx3050,nonsquare,4,1D Blocktiling,4096,4096,512,1699.0,0.010112
+rtx3050,nonsquare,4,1D Blocktiling,4096,4096,1024,1725.3,0.019915
+rtx3050,nonsquare,4,1D Blocktiling,4096,4096,2048,1738.6,0.039525
+rtx3050,nonsquare,5,2D Blocktiling,4096,4096,4096,3447.3,0.039869
+rtx3050,nonsquare,5,2D Blocktiling,2048,8192,4096,3430.8,0.04006
+rtx3050,nonsquare,5,2D Blocktiling,8192,2048,4096,3434.1,0.040022
+rtx3050,nonsquare,5,2D Blocktiling,4096,4096,512,3082.8,0.005573
+rtx3050,nonsquare,5,2D Blocktiling,4096,4096,1024,3262.6,0.010531
+rtx3050,nonsquare,5,2D Blocktiling,4096,4096,2048,3364.3,0.020426
+rtx3050,nonsquare,6,Vectorized,4096,4096,4096,4050.2,0.033934
+rtx3050,nonsquare,6,Vectorized,2048,8192,4096,4040.4,0.034016
+rtx3050,nonsquare,6,Vectorized,8192,2048,4096,4035.0,0.034062
+rtx3050,nonsquare,6,Vectorized,4096,4096,512,3820.4,0.004497
+rtx3050,nonsquare,6,Vectorized,4096,4096,1024,3929.1,0.008745
+rtx3050,nonsquare,6,Vectorized,4096,4096,2048,3998.7,0.017186
+rtx3050,nonsquare,7,Bank Conflicts (Linearize),4096,4096,4096,3554.7,0.038664
+rtx3050,nonsquare,7,Bank Conflicts (Linearize),2048,8192,4096,3545.1,0.038769
+rtx3050,nonsquare,7,Bank Conflicts (Linearize),8192,2048,4096,3536.5,0.038863
+rtx3050,nonsquare,7,Bank Conflicts (Linearize),4096,4096,512,3368.0,0.005101
+rtx3050,nonsquare,7,Bank Conflicts (Linearize),4096,4096,1024,3458.6,0.009935
+rtx3050,nonsquare,7,Bank Conflicts (Linearize),4096,4096,2048,3504.1,0.019611
+rtx3050,nonsquare,8,Bank Conflicts (Offset),4096,4096,4096,3622.5,0.03794
+rtx3050,nonsquare,8,Bank Conflicts (Offset),2048,8192,4096,3617.1,0.037997
+rtx3050,nonsquare,8,Bank Conflicts (Offset),8192,2048,4096,3614.5,0.038024
+rtx3050,nonsquare,8,Bank Conflicts (Offset),4096,4096,512,3432.6,0.005005
+rtx3050,nonsquare,8,Bank Conflicts (Offset),4096,4096,1024,3525.8,0.009745
+rtx3050,nonsquare,8,Bank Conflicts (Offset),4096,4096,2048,3571.7,0.01924
+rtx3050,nonsquare,9,Autotuned,4096,4096,4096,4398.6,0.031246
+rtx3050,nonsquare,9,Autotuned,2048,8192,4096,4392.0,0.031293
+rtx3050,nonsquare,9,Autotuned,8192,2048,4096,4387.0,0.031328
+rtx3050,nonsquare,9,Autotuned,4096,4096,512,4183.1,0.004107
+rtx3050,nonsquare,9,Autotuned,4096,4096,1024,4282.2,0.008024
+rtx3050,nonsquare,9,Autotuned,4096,4096,2048,4342.4,0.015825
+t4,square,0,cuBLAS,128,128,128,33.8,0.000124
+t4,square,0,cuBLAS,256,256,256,131.4,0.000255
+t4,square,0,cuBLAS,512,512,512,1970.5,0.000136
+t4,square,0,cuBLAS,1024,1024,1024,2588.3,0.00083
+t4,square,0,cuBLAS,2048,2048,2048,3884.2,0.004423
+t4,square,0,cuBLAS,4096,4096,4096,4321.2,0.031806
+t4,square,10,Warptiling,128,128,128,45.7,9.2e-05
+t4,square,10,Warptiling,256,256,256,203.7,0.000165
+t4,square,10,Warptiling,512,512,512,863.7,0.000311
+t4,square,10,Warptiling,1024,1024,1024,1837.2,0.001169
+t4,square,10,Warptiling,2048,2048,2048,3485.6,0.004929
+t4,square,10,Warptiling,4096,4096,4096,3985.6,0.034484
+t4,square,15,cuBLAS FP16,128,128,128,29.8,0.000141
+t4,square,15,cuBLAS FP16,256,256,256,974.5,3.4e-05
+t4,square,15,cuBLAS FP16,512,512,512,3768.6,7.1e-05
+t4,square,15,cuBLAS FP16,1024,1024,1024,5920.9,0.000363
+t4,square,15,cuBLAS FP16,2048,2048,2048,7375.1,0.002329
+t4,square,15,cuBLAS FP16,4096,4096,4096,10276.3,0.013374
+t4,square,1,Naive,128,128,128,17.3,0.000243
+t4,square,1,Naive,256,256,256,18.0,0.001868
+t4,square,1,Naive,512,512,512,43.2,0.006215
+t4,square,1,Naive,1024,1024,1024,60.6,0.03545
+t4,square,1,Naive,2048,2048,2048,61.5,0.27947
+t4,square,1,Naive,4096,4096,4096,61.8,2.223032
+t4,square,2,GMEM Coalescing,128,128,128,119.1,3.5e-05
+t4,square,2,GMEM Coalescing,256,256,256,255.7,0.000131
+t4,square,2,GMEM Coalescing,512,512,512,303.3,0.000885
+t4,square,2,GMEM Coalescing,1024,1024,1024,432.0,0.004971
+t4,square,2,GMEM Coalescing,2048,2048,2048,517.0,0.033232
+t4,square,2,GMEM Coalescing,4096,4096,4096,514.4,0.267168
+t4,square,3,SMEM Caching,128,128,128,163.0,2.6e-05
+t4,square,3,SMEM Caching,256,256,256,316.5,0.000106
+t4,square,3,SMEM Caching,512,512,512,383.7,0.0007
+t4,square,3,SMEM Caching,1024,1024,1024,575.3,0.003733
+t4,square,3,SMEM Caching,2048,2048,2048,826.5,0.020787
+t4,square,3,SMEM Caching,4096,4096,4096,822.2,0.167151
+t4,square,4,1D Blocktiling,128,128,128,96.1,4.4e-05
+t4,square,4,1D Blocktiling,256,256,256,417.2,8e-05
+t4,square,4,1D Blocktiling,512,512,512,729.5,0.000368
+t4,square,4,1D Blocktiling,1024,1024,1024,838.7,0.00256
+t4,square,4,1D Blocktiling,2048,2048,2048,1741.7,0.009864
+t4,square,4,1D Blocktiling,4096,4096,4096,1755.0,0.078311
+t4,square,5,2D Blocktiling,128,128,128,36.5,0.000115
+t4,square,5,2D Blocktiling,256,256,256,172.0,0.000195
+t4,square,5,2D Blocktiling,512,512,512,748.9,0.000358
+t4,square,5,2D Blocktiling,1024,1024,1024,1385.0,0.00155
+t4,square,5,2D Blocktiling,2048,2048,2048,2922.0,0.005879
+t4,square,5,2D Blocktiling,4096,4096,4096,3032.8,0.045318
+t4,square,6,Vectorized,128,128,128,44.9,9.3e-05
+t4,square,6,Vectorized,256,256,256,196.9,0.00017
+t4,square,6,Vectorized,512,512,512,820.2,0.000327
+t4,square,6,Vectorized,1024,1024,1024,1608.3,0.001335
+t4,square,6,Vectorized,2048,2048,2048,2865.5,0.005995
+t4,square,6,Vectorized,4096,4096,4096,3400.6,0.040416
+t4,square,7,Bank Conflicts (Linearize),128,128,128,44.9,9.3e-05
+t4,square,7,Bank Conflicts (Linearize),256,256,256,195.9,0.000171
+t4,square,7,Bank Conflicts (Linearize),512,512,512,813.2,0.00033
+t4,square,7,Bank Conflicts (Linearize),1024,1024,1024,1646.8,0.001304
+t4,square,7,Bank Conflicts (Linearize),2048,2048,2048,3246.1,0.005292
+t4,square,7,Bank Conflicts (Linearize),4096,4096,4096,3617.1,0.037997
+t4,square,8,Bank Conflicts (Offset),128,128,128,44.5,9.4e-05
+t4,square,8,Bank Conflicts (Offset),256,256,256,193.8,0.000173
+t4,square,8,Bank Conflicts (Offset),512,512,512,807.8,0.000332
+t4,square,8,Bank Conflicts (Offset),1024,1024,1024,1264.1,0.001699
+t4,square,8,Bank Conflicts (Offset),2048,2048,2048,2768.2,0.006206
+t4,square,8,Bank Conflicts (Offset),4096,4096,4096,3043.9,0.045152
+t4,square,9,Autotuned,128,128,128,49.0,8.6e-05
+t4,square,9,Autotuned,256,256,256,214.1,0.000157
+t4,square,9,Autotuned,512,512,512,893.4,0.0003
+t4,square,9,Autotuned,1024,1024,1024,1533.3,0.001401
+t4,square,9,Autotuned,2048,2048,2048,2808.6,0.006117
+t4,square,9,Autotuned,4096,4096,4096,3435.3,0.040007
+t4,arbitrary,0,cuBLAS,256,256,256,85.7,0.000391
+t4,arbitrary,0,cuBLAS,384,384,384,1462.4,7.7e-05
+t4,arbitrary,0,cuBLAS,512,512,512,1979.3,0.000136
+t4,arbitrary,0,cuBLAS,640,640,640,2293.8,0.000229
+t4,arbitrary,0,cuBLAS,768,768,768,2468.8,0.000367
+t4,arbitrary,0,cuBLAS,896,896,896,2427.6,0.000593
+t4,arbitrary,0,cuBLAS,1024,1024,1024,2587.8,0.00083
+t4,arbitrary,0,cuBLAS,1152,1152,1152,2607.0,0.001173
+t4,arbitrary,0,cuBLAS,1280,1280,1280,2945.6,0.001424
+t4,arbitrary,0,cuBLAS,1408,1408,1408,3525.6,0.001583
+t4,arbitrary,0,cuBLAS,1536,1536,1536,3611.8,0.002007
+t4,arbitrary,0,cuBLAS,1664,1664,1664,3611.8,0.002551
+t4,arbitrary,0,cuBLAS,1792,1792,1792,3821.3,0.003012
+t4,arbitrary,0,cuBLAS,1920,1920,1920,3581.6,0.003952
+t4,arbitrary,0,cuBLAS,2048,2048,2048,3507.1,0.004899
+t4,arbitrary,0,cuBLAS,2176,2176,2176,3447.9,0.005977
+t4,arbitrary,0,cuBLAS,2304,2304,2304,3624.5,0.006749
+t4,arbitrary,0,cuBLAS,2432,2432,2432,3463.9,0.008305
+t4,arbitrary,0,cuBLAS,2560,2560,2560,3521.3,0.009529
+t4,arbitrary,0,cuBLAS,2688,2688,2688,3507.7,0.011074
+t4,arbitrary,0,cuBLAS,2816,2816,2816,3717.2,0.012015
+t4,arbitrary,0,cuBLAS,2944,2944,2944,3557.0,0.014347
+t4,arbitrary,0,cuBLAS,3072,3072,3072,3494.8,0.016591
+t4,arbitrary,0,cuBLAS,3200,3200,3200,3492.7,0.018764
+t4,arbitrary,0,cuBLAS,3328,3328,3328,3576.6,0.020611
+t4,arbitrary,0,cuBLAS,3456,3456,3456,3545.0,0.023288
+t4,arbitrary,0,cuBLAS,3584,3584,3584,3546.5,0.025962
+t4,arbitrary,0,cuBLAS,3712,3712,3712,3572.7,0.028632
+t4,arbitrary,0,cuBLAS,3840,3840,3840,3645.3,0.031066
+t4,arbitrary,0,cuBLAS,3968,3968,3968,3664.2,0.034101
+t4,arbitrary,0,cuBLAS,4096,4096,4096,3654.0,0.037614
+t4,arbitrary,0,cuBLAS,3000,1500,3000,3637.8,0.007422
+t4,arbitrary,0,cuBLAS,3000,3000,3000,3641.4,0.01483
+t4,arbitrary,0,cuBLAS,1500,3000,1500,3840.0,0.003516
+t4,arbitrary,0,cuBLAS,1000,1000,1000,3742.4,0.000534
+t4,arbitrary,0,cuBLAS,1536,768,1536,3636.3,0.000997
+t4,arbitrary,1,Naive,3000,1500,3000,101.8,0.265183
+t4,arbitrary,1,Naive,3000,3000,3000,100.9,0.535257
+t4,arbitrary,1,Naive,1500,3000,1500,124.7,0.108257
+t4,arbitrary,1,Naive,1000,1000,1000,107.0,0.0187
+t4,arbitrary,1,Naive,1536,768,1536,61.4,0.058976
+t4,arbitrary,2,GMEM Coalescing,3000,1500,3000,476.7,0.056634
+t4,arbitrary,2,GMEM Coalescing,3000,3000,3000,483.1,0.111785
+t4,arbitrary,2,GMEM Coalescing,1500,3000,1500,490.1,0.027544
+t4,arbitrary,2,GMEM Coalescing,1000,1000,1000,516.4,0.003873
+t4,arbitrary,2,GMEM Coalescing,1536,768,1536,504.0,0.00719
+t4,nonsquare,0,cuBLAS,4096,4096,4096,3820.3,0.035976
+t4,nonsquare,0,cuBLAS,2048,8192,4096,3882.4,0.035401
+t4,nonsquare,0,cuBLAS,8192,2048,4096,4162.9,0.033015
+t4,nonsquare,0,cuBLAS,4096,4096,512,3905.6,0.004399
+t4,nonsquare,0,cuBLAS,4096,4096,1024,3583.2,0.009589
+t4,nonsquare,0,cuBLAS,4096,4096,2048,3851.5,0.017842
+t4,nonsquare,10,Warptiling,4096,4096,4096,4020.7,0.034183
+t4,nonsquare,10,Warptiling,2048,8192,4096,4018.7,0.0342
+t4,nonsquare,10,Warptiling,8192,2048,4096,4060.2,0.033851
+t4,nonsquare,10,Warptiling,4096,4096,512,3879.2,0.004429
+t4,nonsquare,10,Warptiling,4096,4096,1024,3978.1,0.008637
+t4,nonsquare,10,Warptiling,4096,4096,2048,4019.2,0.017098
+t4,nonsquare,15,cuBLAS FP16,4096,4096,4096,10285.7,0.013362
+t4,nonsquare,15,cuBLAS FP16,2048,8192,4096,8742.4,0.015721
+t4,nonsquare,15,cuBLAS FP16,8192,2048,4096,11056.3,0.012431
+t4,nonsquare,15,cuBLAS FP16,4096,4096,512,9507.4,0.001807
+t4,nonsquare,15,cuBLAS FP16,4096,4096,1024,10577.2,0.003248
+t4,nonsquare,15,cuBLAS FP16,4096,4096,2048,10954.6,0.006273
+t4,nonsquare,1,Naive,4096,4096,4096,61.8,2.224643
+t4,nonsquare,1,Naive,2048,8192,4096,61.5,2.233818
+t4,nonsquare,1,Naive,8192,2048,4096,61.6,2.231835
+t4,nonsquare,1,Naive,4096,4096,512,61.5,0.279461
+t4,nonsquare,1,Naive,4096,4096,1024,61.6,0.557685
+t4,nonsquare,1,Naive,4096,4096,2048,61.7,1.114346
+t4,nonsquare,2,GMEM Coalescing,4096,4096,4096,494.6,0.277869
+t4,nonsquare,2,GMEM Coalescing,2048,8192,4096,483.3,0.284347
+t4,nonsquare,2,GMEM Coalescing,8192,2048,4096,481.5,0.285441
+t4,nonsquare,2,GMEM Coalescing,4096,4096,512,486.4,0.035317
+t4,nonsquare,2,GMEM Coalescing,4096,4096,1024,485.9,0.070717
+t4,nonsquare,2,GMEM Coalescing,4096,4096,2048,489.5,0.140386
+t4,nonsquare,3,SMEM Caching,4096,4096,4096,808.3,0.170036
+t4,nonsquare,3,SMEM Caching,2048,8192,4096,807.7,0.170165
+t4,nonsquare,3,SMEM Caching,8192,2048,4096,814.9,0.168662
+t4,nonsquare,3,SMEM Caching,4096,4096,512,771.5,0.022269
+t4,nonsquare,3,SMEM Caching,4096,4096,1024,796.6,0.043135
+t4,nonsquare,3,SMEM Caching,4096,4096,2048,791.9,0.086776
+t4,nonsquare,4,1D Blocktiling,4096,4096,4096,1740.8,0.078953
+t4,nonsquare,4,1D Blocktiling,2048,8192,4096,1665.1,0.08254
+t4,nonsquare,4,1D Blocktiling,8192,2048,4096,1696.7,0.081004
+t4,nonsquare,4,1D Blocktiling,4096,4096,512,1638.4,0.010486
+t4,nonsquare,4,1D Blocktiling,4096,4096,1024,1681.8,0.020431
+t4,nonsquare,4,1D Blocktiling,4096,4096,2048,1701.4,0.04039
+t4,nonsquare,5,2D Blocktiling,4096,4096,4096,3003.1,0.045765
+t4,nonsquare,5,2D Blocktiling,2048,8192,4096,2957.0,0.04648
+t4,nonsquare,5,2D Blocktiling,8192,2048,4096,3050.3,0.045057
+t4,nonsquare,5,2D Blocktiling,4096,4096,512,2802.9,0.006129
+t4,nonsquare,5,2D Blocktiling,4096,4096,1024,2950.0,0.011647
+t4,nonsquare,5,2D Blocktiling,4096,4096,2048,2980.5,0.023056
+t4,nonsquare,6,Vectorized,4096,4096,4096,3376.6,0.040703
+t4,nonsquare,6,Vectorized,2048,8192,4096,3353.4,0.040985
+t4,nonsquare,6,Vectorized,8192,2048,4096,3418.1,0.040209
+t4,nonsquare,6,Vectorized,4096,4096,512,3321.8,0.005172
+t4,nonsquare,6,Vectorized,4096,4096,1024,3382.8,0.010157
+t4,nonsquare,6,Vectorized,4096,4096,2048,3439.7,0.019978
+t4,nonsquare,7,Bank Conflicts (Linearize),4096,4096,4096,3639.3,0.037765
+t4,nonsquare,7,Bank Conflicts (Linearize),2048,8192,4096,3611.3,0.038058
+t4,nonsquare,7,Bank Conflicts (Linearize),8192,2048,4096,3647.6,0.03768
+t4,nonsquare,7,Bank Conflicts (Linearize),4096,4096,512,3611.2,0.004757
+t4,nonsquare,7,Bank Conflicts (Linearize),4096,4096,1024,3669.0,0.009365
+t4,nonsquare,7,Bank Conflicts (Linearize),4096,4096,2048,3704.8,0.018549
+t4,nonsquare,8,Bank Conflicts (Offset),4096,4096,4096,3038.1,0.045238
+t4,nonsquare,8,Bank Conflicts (Offset),2048,8192,4096,3035.8,0.045273
+t4,nonsquare,8,Bank Conflicts (Offset),8192,2048,4096,3099.9,0.044336
+t4,nonsquare,8,Bank Conflicts (Offset),4096,4096,512,2993.3,0.00574
+t4,nonsquare,8,Bank Conflicts (Offset),4096,4096,1024,3050.7,0.011263
+t4,nonsquare,8,Bank Conflicts (Offset),4096,4096,2048,3054.6,0.022497
+t4,nonsquare,9,Autotuned,4096,4096,4096,3468.1,0.03963
+t4,nonsquare,9,Autotuned,2048,8192,4096,3475.7,0.039543
+t4,nonsquare,9,Autotuned,8192,2048,4096,3503.9,0.039224
+t4,nonsquare,9,Autotuned,4096,4096,512,3386.7,0.005073
+t4,nonsquare,9,Autotuned,4096,4096,1024,3488.9,0.009848
+t4,nonsquare,9,Autotuned,4096,4096,2048,3494.9,0.019663

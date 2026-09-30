@@ -1,0 +1,21 @@
+# CUDA build products
+build/
+*.o
+*.obj
+*.exe
+sgemm
+
+# Nsight Compute binary captures are large and machine-specific
+*.ncu-rep
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

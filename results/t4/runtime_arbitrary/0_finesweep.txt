@@ -1,0 +1,64 @@
+Running kernel 0 on device 0.
+Max size: 4096
+dimensions(m=256 n=256 k=256), alpha: 0.5, beta: 3
+Average elapsed time: (0.000391) s, performance: (   85.7) GFLOPS. size: (256). M=256 N=256 K=256
+dimensions(m=384 n=384 k=384), alpha: 0.5, beta: 3
+Average elapsed time: (0.000077) s, performance: ( 1462.4) GFLOPS. size: (384). M=384 N=384 K=384
+dimensions(m=512 n=512 k=512), alpha: 0.5, beta: 3
+Average elapsed time: (0.000136) s, performance: ( 1979.3) GFLOPS. size: (512). M=512 N=512 K=512
+dimensions(m=640 n=640 k=640), alpha: 0.5, beta: 3
+Average elapsed time: (0.000229) s, performance: ( 2293.8) GFLOPS. size: (640). M=640 N=640 K=640
+dimensions(m=768 n=768 k=768), alpha: 0.5, beta: 3
+Average elapsed time: (0.000367) s, performance: ( 2468.8) GFLOPS. size: (768). M=768 N=768 K=768
+dimensions(m=896 n=896 k=896), alpha: 0.5, beta: 3
+Average elapsed time: (0.000593) s, performance: ( 2427.6) GFLOPS. size: (896). M=896 N=896 K=896
+dimensions(m=1024 n=1024 k=1024), alpha: 0.5, beta: 3
+Average elapsed time: (0.000830) s, performance: ( 2587.8) GFLOPS. size: (1024). M=1024 N=1024 K=1024
+dimensions(m=1152 n=1152 k=1152), alpha: 0.5, beta: 3
+Average elapsed time: (0.001173) s, performance: ( 2607.0) GFLOPS. size: (1152). M=1152 N=1152 K=1152
+dimensions(m=1280 n=1280 k=1280), alpha: 0.5, beta: 3
+Average elapsed time: (0.001424) s, performance: ( 2945.6) GFLOPS. size: (1280). M=1280 N=1280 K=1280
+dimensions(m=1408 n=1408 k=1408), alpha: 0.5, beta: 3
+Average elapsed time: (0.001583) s, performance: ( 3525.6) GFLOPS. size: (1408). M=1408 N=1408 K=1408
+dimensions(m=1536 n=1536 k=1536), alpha: 0.5, beta: 3
+Average elapsed time: (0.002007) s, performance: ( 3611.8) GFLOPS. size: (1536). M=1536 N=1536 K=1536
+dimensions(m=1664 n=1664 k=1664), alpha: 0.5, beta: 3
+Average elapsed time: (0.002551) s, performance: ( 3611.8) GFLOPS. size: (1664). M=1664 N=1664 K=1664
+dimensions(m=1792 n=1792 k=1792), alpha: 0.5, beta: 3
+Average elapsed time: (0.003012) s, performance: ( 3821.3) GFLOPS. size: (1792). M=1792 N=1792 K=1792
+dimensions(m=1920 n=1920 k=1920), alpha: 0.5, beta: 3
+Average elapsed time: (0.003952) s, performance: ( 3581.6) GFLOPS. size: (1920). M=1920 N=1920 K=1920
+dimensions(m=2048 n=2048 k=2048), alpha: 0.5, beta: 3
+Average elapsed time: (0.004899) s, performance: ( 3507.1) GFLOPS. size: (2048). M=2048 N=2048 K=2048
+dimensions(m=2176 n=2176 k=2176), alpha: 0.5, beta: 3
+Average elapsed time: (0.005977) s, performance: ( 3447.9) GFLOPS. size: (2176). M=2176 N=2176 K=2176
+dimensions(m=2304 n=2304 k=2304), alpha: 0.5, beta: 3
+Average elapsed time: (0.006749) s, performance: ( 3624.5) GFLOPS. size: (2304). M=2304 N=2304 K=2304
+dimensions(m=2432 n=2432 k=2432), alpha: 0.5, beta: 3
+Average elapsed time: (0.008305) s, performance: ( 3463.9) GFLOPS. size: (2432). M=2432 N=2432 K=2432
+dimensions(m=2560 n=2560 k=2560), alpha: 0.5, beta: 3
+Average elapsed time: (0.009529) s, performance: ( 3521.3) GFLOPS. size: (2560). M=2560 N=2560 K=2560
+dimensions(m=2688 n=2688 k=2688), alpha: 0.5, beta: 3
+Average elapsed time: (0.011074) s, performance: ( 3507.7) GFLOPS. size: (2688). M=2688 N=2688 K=2688
+dimensions(m=2816 n=2816 k=2816), alpha: 0.5, beta: 3
+Average elapsed time: (0.012015) s, performance: ( 3717.2) GFLOPS. size: (2816). M=2816 N=2816 K=2816
+dimensions(m=2944 n=2944 k=2944), alpha: 0.5, beta: 3
+Average elapsed time: (0.014347) s, performance: ( 3557.0) GFLOPS. size: (2944). M=2944 N=2944 K=2944
+dimensions(m=3072 n=3072 k=3072), alpha: 0.5, beta: 3
+Average elapsed time: (0.016591) s, performance: ( 3494.8) GFLOPS. size: (3072). M=3072 N=3072 K=3072
+dimensions(m=3200 n=3200 k=3200), alpha: 0.5, beta: 3
+Average elapsed time: (0.018764) s, performance: ( 3492.7) GFLOPS. size: (3200). M=3200 N=3200 K=3200
+dimensions(m=3328 n=3328 k=3328), alpha: 0.5, beta: 3
+Average elapsed time: (0.020611) s, performance: ( 3576.6) GFLOPS. size: (3328). M=3328 N=3328 K=3328
+dimensions(m=3456 n=3456 k=3456), alpha: 0.5, beta: 3
+Average elapsed time: (0.023288) s, performance: ( 3545.0) GFLOPS. size: (3456). M=3456 N=3456 K=3456
+dimensions(m=3584 n=3584 k=3584), alpha: 0.5, beta: 3
+Average elapsed time: (0.025962) s, performance: ( 3546.5) GFLOPS. size: (3584). M=3584 N=3584 K=3584
+dimensions(m=3712 n=3712 k=3712), alpha: 0.5, beta: 3
+Average elapsed time: (0.028632) s, performance: ( 3572.7) GFLOPS. size: (3712). M=3712 N=3712 K=3712
+dimensions(m=3840 n=3840 k=3840), alpha: 0.5, beta: 3
+Average elapsed time: (0.031066) s, performance: ( 3645.3) GFLOPS. size: (3840). M=3840 N=3840 K=3840
+dimensions(m=3968 n=3968 k=3968), alpha: 0.5, beta: 3
+Average elapsed time: (0.034101) s, performance: ( 3664.2) GFLOPS. size: (3968). M=3968 N=3968 K=3968
+dimensions(m=4096 n=4096 k=4096), alpha: 0.5, beta: 3
+Average elapsed time: (0.037614) s, performance: ( 3654.0) GFLOPS. size: (4096). M=4096 N=4096 K=4096

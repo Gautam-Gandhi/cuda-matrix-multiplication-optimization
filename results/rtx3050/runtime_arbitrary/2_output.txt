@@ -1,0 +1,12 @@
+Running kernel 2 on device 0.
+Max size: 3000
+dimensions(m=3000 n=1500 k=3000), alpha: 0.5, beta: 3
+Average elapsed time: (0.061451) s, performance: (  439.4) GFLOPS. size: (3000). M=3000 N=1500 K=3000
+dimensions(m=3000 n=3000 k=3000), alpha: 0.5, beta: 3
+Average elapsed time: (0.122286) s, performance: (  441.6) GFLOPS. size: (3000). M=3000 N=3000 K=3000
+dimensions(m=1500 n=3000 k=1500), alpha: 0.5, beta: 3
+Average elapsed time: (0.030675) s, performance: (  440.1) GFLOPS. size: (1500). M=1500 N=3000 K=1500
+dimensions(m=1000 n=1000 k=1000), alpha: 0.5, beta: 3
+Average elapsed time: (0.004421) s, performance: (  452.4) GFLOPS. size: (1000). M=1000 N=1000 K=1000
+dimensions(m=1536 n=768 k=1536), alpha: 0.5, beta: 3
+Average elapsed time: (0.008225) s, performance: (  440.6) GFLOPS. size: (1536). M=1536 N=768 K=1536

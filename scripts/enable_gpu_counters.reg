@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; Enables NVIDIA GPU performance-counter access for all users (not just admin),
+; which Nsight Compute (ncu) needs to profile on a GeForce card (RTX 3050).
+; Right-click this file -> Merge (accept the UAC prompt), then REBOOT.
+; To undo, set the value back to 1 (or delete it).
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvlddmkm\Global\NVTweak]
+"RmProfilingAdminOnly"=dword:00000000
